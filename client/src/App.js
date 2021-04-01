@@ -1,4 +1,6 @@
 import React from "react";
+import Map from './components/Map';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +19,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>{!data ? "Loading..." : data}</p>
       </header>
+      <Map/>
     </div>
   );
 }

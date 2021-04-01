@@ -12,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 /* Create APIs */
 // You can visit http://localhost:3001/api to see {"message":"Hello from server!"}
 app.get("/api", (req, res) => {
-    res.json({ message: "Goodbye from server!" });
+    res.json({ message: "The Lord will fight for you... you need only to be still" });
   });
 
 /* All other GET requests not handled before will return our React app */
