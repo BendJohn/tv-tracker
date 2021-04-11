@@ -1,5 +1,6 @@
 import React from "react";
 import Map from './components/Map';
+import Carousel from './components/Carousel';
 
 import logo from './logo.svg';
 import './App.css';
@@ -17,7 +18,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
+        <p class="sans-serif">{!data ? "Loading..." : data}</p>
+        <Carousel/>
       </header>
       <Map/>
     </div>
