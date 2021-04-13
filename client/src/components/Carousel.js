@@ -11,7 +11,7 @@ class Carousel extends Component {
     };
     return (
       <div>
-        <h1>A Story from my Friend John</h1>
+        <h1>A Story from my Friend Max</h1>
         <Slider { ...settings }>
             <div>
               <p>In 2020 December, Max was preparing to take his first semester junior-year finals. But throughout his studying, he was suffering from a mild headache. Prone to ear aches, he visited the pediatrician to check whether there was any ear infection. Finding nothing, he went back to studying for next week’s exams. But the headaches got worse. Max started vomiting and unable to eat any food. His parents asked whether he had to go to the ER, but he was too embarrassed to go to the hospital for something minor. It was not minor. One night, the headache was so bad Max could barely cope with the pain. His parents rushed him to the hospital where they took a scan of his head. A brain lesion was found pressing on the brain stem. The preliminary diagnosis was a rapid-spreading cancer, and an emergency brain surgery was necessary asap to live.</p>
